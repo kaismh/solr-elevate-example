@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataConfig>
+ <dataSource autoCommit="true" convertType="true" driver="com.mysql.jdbc.Driver" 
+ user="root" password="root"
+ url="jdbc:mysql://localhost:3306/products?characterEncoding=UTF-8" 
+ />
+  <document onImportStart="org.kaismh.solr.ElevateFileCreatorPlugin">
+   <entity name="products" pk="id" 
+       query="SELECT id, title, description, manufacturer, price FROM amazon"/>
+  </document>
+</dataConfig>

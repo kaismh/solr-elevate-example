@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<elevate>
+  <query text="linux">
+    <doc id="b0002nt5ho"/>
+    <doc id="b000bvxob0"/>
+  </query>
+  <query text="mac">
+    <doc id="b0002nt5ho"/>
+  </query>
+</elevate>
